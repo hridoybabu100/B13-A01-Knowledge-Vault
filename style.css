@@ -4,3 +4,176 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+body {
+    background-color: #FFFFFF;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+#hero, #note, #brain {
+    margin-bottom: 80px;
+}
+
+/* header-section code start  */
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+}
+#nav-bar img {
+    width: 130px;
+}
+ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: #000000;
+    line-height: 152%;
+}
+.nav-btn button {
+    background-color: #469165;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    transition: 1S;
+}
+.nav-btn button:hover {
+    background-image: linear-gradient(to top, red, yellow);
+}
+
+
+/* hero section code start  */
+
+#hero {
+    background-image: url(./images/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+#hero-contant {
+    text-align: center;
+    padding-top: 200px;
+}
+#hero-contant h6 {
+    background-color: #FFFFFF;
+    font-size: 16px;
+    width: 300px;
+    display: inline;
+    color: #469165;
+    border-radius: 100px;
+    padding: 2px 4px;
+    margin-bottom: 20px;
+}
+#hero-contant h6 i {
+    color: #469165;
+}
+#hero-contant  h1 {
+    margin-top: 10px;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+#hero-contant p{
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.hero-btn button {
+    background-color: #469165;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+/* notes section code start  */
+.note-heading h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.note-heading p {
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.note-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.note-box {
+    width: 320px;
+    background-color: #FFFFFF;
+    padding: 25px;
+    text-align: center;
+    height: 250px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+.note-box h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.note-box p {
+    color: #627382;
+}
+#icon-card{
+    width: 60px;
+    height: 60px;
+    background: #ff5a5a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+.note-box p i {
+    color: #efe7e7;
+    width: 40px;
+    padding-top: 20px;
+}
+.note-box *{
+    margin-bottom: 15px;
+}
+
+/* Brain section code start  */
+
+.brain-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.brain-img img {
+    width: 600px;
+    border-radius: 12px;
+}
+.brain-contant h2 {
+    font-size: 48px;
+    color: #001931;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.brain-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
