@@ -46,14 +46,24 @@ ul li a {
     color: #FFFFFF;
     border-radius: 4px;
     border: none;
-    transition: 1S;
+    transition: 0.5S;
 }
 .nav-btn button:hover {
-    background-image: linear-gradient(to top, red, yellow);
+    background-color: #E5E7EB;
+    color: #000000;
+}
+.hero-btn button {
+    transition: 0.5s;
 }
 .hero-btn button:hover {
-    background-image: linear-gradient(to top, red, yellow);
+    background-color: #E5E7EB;
+    color: #000000;
 }
+.btn:hover {
+    background-color: #141311;
+    color: #e3d6d6;
+}
+
 
 
 /* hero section code start  */
