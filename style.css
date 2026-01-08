@@ -11,7 +11,7 @@ body {
     width: 85%;
     margin: 0 auto;
 }
-#hero, #note, #brain {
+#hero, #note, #brain, #ready {
     margin-bottom: 80px;
 }
 
@@ -49,6 +49,9 @@ ul li a {
     transition: 1S;
 }
 .nav-btn button:hover {
+    background-image: linear-gradient(to top, red, yellow);
+}
+.hero-btn button:hover {
     background-image: linear-gradient(to top, red, yellow);
 }
 
@@ -159,7 +162,7 @@ ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
 }
 .brain-img img {
     width: 600px;
@@ -177,3 +180,63 @@ ul li a {
     gap: 10px;
     margin-bottom: 15px;
 }
+
+/* Ready section code start  */
+
+#ready {
+    background-color: #F7F6F2;
+    padding: 80px;
+    border-radius: 12px;
+}
+.ready-contant {
+    text-align: center;
+}
+.ready-contant h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 15px;
+}
+.ready-contant p {
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+/* foter section code hare  */
+
+#foter {
+    background-color: #001931;
+}
+#foter-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.foter-img img {
+    width: 130px;
+}
+.foter-icon h3 {
+    color: #FFFFFF;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.foter-icon i {
+    color: #FAFAFA;
+    font-size: 25px;
+}
+
+#copy-right {
+    border-top: 1px solid #E5E7EB;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #FAFAFA;
+    line-height: 24px;
+    padding-top: 30px;
+}
+
+/* the code section is closed  */
